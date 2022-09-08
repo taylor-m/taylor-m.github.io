@@ -367,6 +367,20 @@
 			padding-left: 0.25em;
 		}
 	}
+	
+	> div {
+		keyword {
+			margin: auto;
+		}
+		&.left {
+			float: left;
+			font-weight: bold;
+		}
+		&.right {
+			float: right;
+			font-weight: italic;
+		}
+	}
 
 /* Icons */
 
